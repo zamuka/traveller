@@ -17,15 +17,19 @@
   },
   {
       "id": "moscow",
-      "nearest": ["kyiv"]
+      "nearest": ["kyiv", "st_persburg", "minsk"]
   },
+  {
+      "id": "st_persburg",
+      "nearest": ["moscow"]
+  }
   {
       "id": "kyiv",
       "nearest": ["moscow", "minsk", "kharkiv"]
   },
   {
       "id": "minsk",
-      "nearest": ["kyiv"]
+      "nearest": ["kyiv", "moscow"]
   },
   {
       "id": "kharkiv",

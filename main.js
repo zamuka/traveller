@@ -5,8 +5,9 @@ const app = express();
 app.use((req, res, next)=>{
     res.setHeader('Access-Control-Allow-Origin', "*");
     res.setHeader('Access-Control-Allow-Methods', "*");
-    next();
-})
+    setTimeout(next, 1000);
+});
+
 const PORT = process.env.PORT || 3000;
 let cities;
 
