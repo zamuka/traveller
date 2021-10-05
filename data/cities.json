@@ -22,7 +22,7 @@
   {
       "id": "st_persburg",
       "nearest": ["moscow"]
-  }
+  },
   {
       "id": "kyiv",
       "nearest": ["moscow", "minsk", "kharkiv"]
