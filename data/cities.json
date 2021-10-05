@@ -1,0 +1,150 @@
+[
+  {
+      "id": "antananarivo",
+      "nearest": []
+  },
+  {
+      "id": "nuuk",
+      "nearest": []
+  },
+  {
+      "id": "sydney",
+      "nearest": ["canberra"]
+  },
+  {
+      "id": "canberra",
+      "nearest": ["sydney"]
+  },
+  {
+      "id": "moscow",
+      "nearest": ["kyiv"]
+  },
+  {
+      "id": "kyiv",
+      "nearest": ["moscow", "minsk", "kharkiv"]
+  },
+  {
+      "id": "minsk",
+      "nearest": ["kyiv"]
+  },
+  {
+      "id": "kharkiv",
+      "nearest": ["kyiv"]
+  },
+  {
+      "id": "lviv",
+      "nearest": ["kyiv", "bratislava"]
+  },
+  {
+      "id": "warsaw",
+      "nearest": []
+  },
+  {
+      "id": "prague",
+      "nearest": ["paris", "berlin", "bratislava"]
+  },
+  {
+      "id": "bratislava",
+      "nearest": ["lviv", "prague", "berlin", "budapest"]
+  },
+  {
+      "id": "budapest",
+      "nearest": ["bratislava"]
+  },
+  {
+      "id": "berlin",
+      "nearest": ["prague", "bratislava"]
+  },
+  {
+      "id": "paris",
+      "nearest": ["prague"]
+  },
+  {
+      "id": "los_angeles",
+      "nearest": ["san_diego","sacramento","las_vegas","san_francisco"]
+    },
+    {
+      "id": "san_diego",
+      "nearest": ["los_angeles","tijuana","phoenix"]
+    },
+    {
+      "id": "sacramento",
+      "nearest": ["portland","los_angeles","san_francisco"]
+    },
+    {
+      "id": "las_vegas",
+      "nearest": ["phoenix","denver","albuquerque","los_angeles"]
+    },
+    {
+      "id": "san_francisco",
+      "nearest": ["los_angeles","sacramento"]
+    },
+    {
+      "id": "tijuana",
+      "nearest": ["san_diego","phoenix"]
+    },
+    {
+      "id": "phoenix",
+      "nearest": ["las_vegas","tijuana","san_diego","hermosillo"]
+    },
+    {
+      "id": "denver",
+      "nearest": ["las_vegas","kansas_city","oklahoma_city"]
+    },
+    {
+      "id": "albuquerque",
+      "nearest": ["las_vegas","oklahoma_city"]
+    },
+    {
+      "id": "portland",
+      "nearest": ["sacramento","seattle"]
+    },
+    {
+      "id": "hermosillo",
+      "nearest": ["monterrey","phoenix"]
+    },
+    {
+      "id": "kansas_city",
+      "nearest": ["denver"]
+    },
+    {
+      "id": "oklahoma_city",
+      "nearest": ["denver","albuquerque"]
+    },
+    {
+      "id": "seattle",
+      "nearest": ["portland"]
+    },
+    {
+      "id": "monterrey",
+      "nearest": ["hermosillo"]
+    },
+    {
+      "id": "cairo",
+      "nearest": ["daker", "capetown", "algiers"]
+    },
+    {
+      "id": "daker",
+      "nearest": ["cairo", "ndjamena", "lagos", "algiers"]
+    },
+    {
+      "id": "capetown",
+      "nearest": ["daker", "ndjamena"]
+    },
+    {
+      "id": "ndjamena",
+      "nearest": ["capetown", "daker"]
+    },
+    {
+      "id": "lagos",
+      "nearest": ["daker", "algiers", "mombasa"]
+    },
+    {
+      "id": "aliers",
+      "nearest": ["daker", "lagos", "cairo"]
+    },
+    {
+      "id": "mombasa",
+      "nearest": ["lagos"]
+    }
+]
