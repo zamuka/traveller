@@ -2,8 +2,6 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 
-// test
-
 app.use((req, res, next)=>{
     res.setHeader('Access-Control-Allow-Origin', "*");
     res.setHeader('Access-Control-Allow-Methods', "*");
@@ -37,5 +35,5 @@ app.get('/api/cities', (req, res, next) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Application listening on port ${PORT}!`);
+    console.log(`Application listening on port ${PORT}...`);
 });
