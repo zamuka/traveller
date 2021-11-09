@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 
-// test 2
+// test
 
 app.use((req, res, next)=>{
     res.setHeader('Access-Control-Allow-Origin', "*");
